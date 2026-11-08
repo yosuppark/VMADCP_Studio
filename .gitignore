@@ -1,0 +1,38 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# PyInstaller / Build artifacts
+build/
+dist/
+*.exe
+*.zip
+
+# PyTest cache
+.pytest_cache/
+
+# Raw large ADCP survey datasets
+01_VM-ADCP/
+*.7z
+*.rar
+*.tar
+*.gz
+
+# Test output directories and generated synthetic binaries
+tests/*.pd0
+tests/output_*/
+tests/sample_*
+
+# IDE / Editor configuration
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS generated files
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+.DS_Store
